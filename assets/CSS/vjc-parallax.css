@@ -12,27 +12,27 @@ body {
 }
 
 .bgpar1 {
-    background-image: url("foni/666.jpg");
+    background-image: url("foni/6.jpg");
     height: 100%;
 }
 
 .bgpar2 {
-    background-image: url("foni/222.jpg");
+    background-image: url("foni/2.jpg");
     min-height: 400px;
 }
 
 .bgpar3 {
-    background-image: url("foni/555.jpg");
+    background-image: url("foni/5.jpg");
     min-height: 400px;
 }
 
 .bgpar4 {
-    background-image: url("foni/444.jpg");
+    background-image: url("foni/4.jpg");
     min-height: 400px;
 }
 
 .bgpar5 {
-    background-image: url("foni/333.jpg");
+    background-image: url("foni/3.jpg");
     min-height: 400px; 
 }
 
