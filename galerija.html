@@ -1,0 +1,154 @@
+	<!DOCTYPE html>
+	<html lang="lv">
+	<head>
+		<title>VJC - galerija</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="assets/CSS/vjc-parallax.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+	</head>
+	<body>
+
+		<!-- Sidebar -->
+		<div id="icons">
+			<a href="https://www.facebook.com/VidzemesJogascentrs/"><i class="fab fa-facebook fa-3x" ></i></a><br>
+		</div>
+
+		<!-- Navbar -->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light" id="nav">
+			<a class="navbar-brand" href="index.html">Vidzemes Jogas centrs</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="jaunumi.html">Jaunumi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="par-mums.html">Par mums</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="nodarbibas.html">Nodarbības</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="galerija.html">Galerija</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="kontakti.html">Kontakti</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- 2. parallax daļa -->
+		<div class="bgpar5 parallax">
+			<div class="virsraksti">
+				<span>Galerija</span>
+			</div>
+		</div>
+
+		<!-- Saturs -->
+			<!-- Images -->
+			<div class="container chapter">
+				<section id="galerijaGrid">
+					<img src="assets/CSS/galerija/1.jpg" alt="yoga" onclick="openModal();currentSlide(1)">
+					<img src="assets/CSS/galerija/2.jpg" alt="yoga" onclick="openModal();currentSlide(2)">
+					<img src="assets/CSS/galerija/3.jpg" alt="yoga" onclick="openModal();currentSlide(3)">
+					<img src="assets/CSS/galerija/4.jpg" alt="yoga" onclick="openModal();currentSlide(4)">
+					<img src="assets/CSS/galerija/5.jpg" alt="yoga" onclick="openModal();currentSlide(5)">
+					<img src="assets/CSS/galerija/6.jpg" alt="yoga" onclick="openModal();currentSlide(6)">
+					<img src="assets/CSS/galerija/7.jpg" alt="yoga" onclick="openModal();currentSlide(7)">
+					<img src="assets/CSS/galerija/8.jpg" alt="yoga" onclick="openModal();currentSlide(8)">
+					<img src="assets/CSS/galerija/9.jpg" alt="yoga" onclick="openModal();currentSlide(9)">
+					<img src="assets/CSS/galerija/10.jpg" alt="yoga" onclick="openModal();currentSlide(10)">
+				</section>
+			</div>
+
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <span class="close cursor" onclick="closeModal()">&times;</span>
+			  <div class="modal-content" id="modal-content">
+
+			    <div class="mySlides">
+			      <div class="numbertext">1 / 10</div>
+			      <img src="assets/CSS/galerija/1.jpg" alt="yoga">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">2 / 10</div>
+			      <img src="assets/CSS/galerija/2.jpg" alt="yoga">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">3 / 10</div>
+			      <img src="assets/CSS/galerija/3.jpg" alt="yoga">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">4 / 10</div>
+			      <img src="assets/CSS/galerija/4.jpg" alt="yoga">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">5 / 10</div>
+			      <img src="assets/CSS/galerija/5.jpg" alt="yoga">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">6 / 10</div>
+			      <img src="assets/CSS/galerija/6.jpg" alt="yoga">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">7 / 10</div>
+			      <img src="assets/CSS/galerija/7.jpg" alt="yoga">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">8 / 10</div>
+			      <img src="assets/CSS/galerija/8.jpg" alt="yoga">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">9 / 10</div>
+			      <img src="assets/CSS/galerija/9.jpg" alt="yoga">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">10 / 10</div>
+			      <img src="assets/CSS/galerija/10.jpg" alt="yoga">
+			    </div>
+
+			    <!-- Next/previous controls -->
+			    <a class="prev" onclick="plusSlides(-1)"><span>&#10094;</span></a>
+			    <a class="next" onclick="plusSlides(1)"><span>&#10095;</span></a>			    
+			  </div>
+			</div>			
+
+
+		<!-- Footer -->
+		<footer>
+			<a href="#top" id="to-top" class="btn"><i class="fa fa-arrow-up"></i>Uz augšu</a>
+			<p><i class="fas fa-copyright"></i><span id="special"> Vidzemes Jogas centrs</span></p>
+		</footer>
+
+		<!-- Modal galerija -->
+		<!-- <div id="myModal" class="modal">
+			<div class="backdrop"></div>
+			<img class="modal-content" id="img01" src="#" alt="">
+			<span class="close"><i class="far fa-window-close"></i></span>
+		</div>
+ -->
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="assets/JS/vjc-parallax.js"></script>
+	</body>
+	</html>
