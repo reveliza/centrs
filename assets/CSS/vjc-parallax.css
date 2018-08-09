@@ -12,12 +12,12 @@ body {
 }
 
 .bgpar1 {
-    background-image: url("foni/6.jpg");
+    background-image: url("foni/2.jpg");
     height: 100%;
 }
 
 .bgpar2 {
-    background-image: url("foni/2.jpg");
+    background-image: url("foni/6.jpg");
     min-height: 400px;
 }
 
