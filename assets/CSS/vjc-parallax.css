@@ -12,27 +12,27 @@ body {
 }
 
 .bgpar1 {
-    background-image: url("foni/2.jpg");
+    background-image: url("foni/6.jpg");
     height: 100%;
 }
 
 .bgpar2 {
-    background-image: url("foni/6.jpg");
+    background-image: url("foni/2.jpg");
     min-height: 400px;
 }
 
 .bgpar3 {
-    background-image: url("foni/5.jpg");
+    background-image: url("foni/1.jpg");
     min-height: 400px;
 }
 
 .bgpar4 {
-    background-image: url("foni/4.jpg");
+    background-image: url("foni/3.jpg");
     min-height: 400px;
 }
 
 .bgpar5 {
-    background-image: url("foni/3.jpg");
+    background-image: url("foni/5.jpg");
     min-height: 400px; 
 }
 
@@ -425,6 +425,12 @@ p.card-text {
     padding-right: 10px;
 }
 
+p.card-text {
+    margin-bottom: 0;
+    padding-bottom: 0 !important;
+}
+
+
 
 
 /*Large screen*/
@@ -486,9 +492,8 @@ p.card-text {
         margin: 5px 10px;
     }
 
-    .apraksts.grafiks {
+    .apraksts-mobile.grafiks table {
         width: 80%;
-        margin-left: 10%;
     }
 
     img.profila-bildes {
@@ -576,27 +581,19 @@ p.card-text {
         margin-top: 32px;
     }
 
-    .apraksts.grafiks {
+    .apraksts-mobile.grafiks table{
         width: 80%;
-        margin-left: 10%;
     }
 
     img.profila-bildes {
         max-height: 160px;
     }
-    span.close {
-        bottom: 5%;
-        top: auto;
-        right: 45%;
-        left: auto;
-    }
 
 }
 
 @media only screen and (min-width: 520px) and (max-width: 550px){
-    .apraksts.grafiks {
+    .apraksts-mobile.grafiks table{
         width: 90%;
-        margin-left: 5%;
     }
 
     .apraksts.personals, .apraksts-desk.ar-attelu, .apraksts-desk.nodarbibas, .apraksts-desk.grafiks, .apraksts-large{
@@ -671,10 +668,9 @@ p.card-text {
         max-height: 150px;
     }
 
-    .apraksts.grafiks {
+    .apraksts-mobile.grafiks table{
+        width: 80%;
         font-size: 0.7rem;
-        width: 100%;
-        margin: 0;
     }
     .bgpar1, .bgpar2, .bgpar3, .bgpar4, .bgpar5 {
         background-attachment: scroll;
@@ -708,11 +704,9 @@ p.card-text {
         display: block !important;
     }
 
-    .apraksts.grafiks {
-        display: block;
+    .apraksts-mobile.grafiks table{
         width: 100%;
-        margin-left: 0;
-        font-size: 0.65rem;
+        font-size: 0.75rem;
     }
 
     p.personals {
@@ -744,8 +738,4 @@ p.card-text {
     .bgpar1, .bgpar2, .bgpar3, .bgpar4, .bgpar5 {
         background-attachment: scroll;
     }
-}
-
-.myClass {
-    background-color: blue;
 }
