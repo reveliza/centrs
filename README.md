@@ -1,0 +1,2 @@
+# centrs
+Vidzemes Jogas centrs
